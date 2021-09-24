@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap");
+.header {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+.header h1 {
+  margin: auto;
+  text-align: center;
+}
+.theme-holder {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.theme-holder img {
+  display: block;
+  max-height: 20vh;
+  min-width: 30vh;
+  overflow: hidden;
+}
+
+textarea {
+  border: 2px solid black;
+  width: 70vw;
+  height: 20vh;
+  padding: 1rem;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 1rem;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  padding-left: 4rem;
+}
+
+#btn-translate {
+  padding: 0.4rem;
+  margin: 0rem 2rem;
+  border-radius: 20px;
+  width: 8rem;
+  background-color: rgba(240, 237, 74, 0.719);
+}
+
+.output-holder-text {
+  text-align: center;
+}
+
+.output-holder-text h1 {
+  font-family: "Kaisei Tokumin", serif;
+  font-size: 2rem;
+}
+.output-holder {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 1rem;
+}
+
+#output-box {
+  border: 2px solid black;
+  width: 70vw;
+  height: 20vh;
+  padding: 1rem;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.footer h1 {
+  margin: auto;
+  text-align: center;
+}
